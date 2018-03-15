@@ -41,7 +41,10 @@ Vérifier la présence de topics:
 ```
 bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
 ```
-
+Description du topic:
+```
+bin\windows\kafka-topics.bat --describe --zookeeper 54.229.212.201 --topic julietest2
+```
 Créer un producteur:
 ```
 bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic test
