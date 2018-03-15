@@ -29,7 +29,7 @@ bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 
 Serveur / broker:
 ```
-bin\windows\kafka-server-start.bat config\server.properties
+bin\windows\kafka-server-start.bat config\server.properties &
 ```
 
 Create topic:
