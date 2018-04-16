@@ -64,6 +64,7 @@ pour ajouter broker need créer un nouveau fichier server properties
 id-broker=2
 
 ```
+cd /usr/hdp/2.6.3.0-235/kafka
 bin/kafka-topics.sh --create --zookeeper 54.229.212.201 --replication-factor 2 --partitions 5 --topic julietest2
 Created topic "julietest"
 ```
