@@ -1,5 +1,5 @@
 # linux 
-```
+```linux
 wget http://apache.mindstudios.com/kafka/1.0.1/kafka_2.11-1.0.1.tgz
 tar -xf kafka_2.11-1.0.1.tgz
 cd /mnt/c/Users/Fitec/Downloads/Kafka/kafkabin/kafka_2.11-1.0.1
@@ -22,8 +22,12 @@ bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic test --from-beg
 log.dirs=c:/kafka/kafka-logs dans config server à la place de /tmp/kafka-logs
 dataDir=c:/kafka/kafka-dataDir dans zookeeper /tmp/zookeeper
 
-Zookeeper:
+Shell zookeeper:
+```windows
+C:\kafka_2.11-1.0.1>C:\kafka_2.11-1.0.1\bin\windows\zookeeper-shell.bat
 ```
+Zookeeper:
+```windows
 bin\windows\zookeeper-server-start.bat config\zookeeper.properties
 ```
 
